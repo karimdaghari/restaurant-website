@@ -1,7 +1,6 @@
 <template>
   <div>
     <Navbar />
-    <hr />
     <slot />
     <hr />
     <Footer />

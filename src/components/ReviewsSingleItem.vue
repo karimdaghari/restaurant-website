@@ -1,0 +1,27 @@
+<template>
+  <b-card>
+    <b-media>
+      <template #aside>
+        <b-img rounded="circle" blank blank-color="#ccc" width="80" alt="placeholder"></b-img>
+      </template>
+      <h5>Excellent !</h5>
+      <div class="mb-n2">
+        <p>* * * * *</p>
+      </div>
+      <blockquote>
+        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempora est, quia quas officiis totam optio.</q>
+        <footer class="mt-2">
+          - name,
+          <cite>date</cite>
+        </footer>
+      </blockquote>
+    </b-media>
+  </b-card>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style lang="scss" scoped>
+</style>

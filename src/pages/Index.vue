@@ -1,7 +1,6 @@
 <template>
   <Layout>
     <Hero />
-    <hr />
     <Reviews />
     <hr />
     <Menu />

@@ -1,5 +1,5 @@
 <template>
-  <b-jumbotron tag="section" container-fluid fluid>
+  <b-jumbotron tag="section" container-fluid fluid class="mb-0">
     <template #header>
       Une experience...
       <br />Unique.

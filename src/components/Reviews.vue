@@ -1,7 +1,7 @@
 <template>
   <section>
-    <b-container class="pb-5 pt-4">
-      <h2 class="text-uppercase text-center mb-3">Ce qu'ils disent</h2>
+    <b-container class="pb-5 pt-1">
+      <b-heading>Ce qu'ils disent</b-heading>
       <b-row>
         <b-col>
           <reviews-single-item />
@@ -18,9 +18,11 @@
 </template>
 
 <script>
+import BHeading from "./BHeading.vue";
 import ReviewsSingleItem from "./ReviewsSingleItem.vue";
 export default {
   components: {
+    BHeading,
     ReviewsSingleItem
   }
 };

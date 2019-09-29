@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2 class="text-uppercase text-center mt-2 mb-2">Menu</h2>
+    <b-heading>Menu</b-heading>
     <b-container>
       <h3 class="text-uppercase mb-2">Entrées</h3>
       <b-row class="mb-2">
@@ -61,9 +61,11 @@
 </template>
 
 <script>
+import BHeading from "./BHeading.vue";
 import MenuSingleItem from "./MenuSingleItem.vue";
 export default {
   components: {
+    BHeading,
     MenuSingleItem
   }
 };

@@ -2,7 +2,6 @@
   <Layout>
     <Hero />
     <Reviews />
-    <hr />
     <Menu />
     <hr />
     <About />

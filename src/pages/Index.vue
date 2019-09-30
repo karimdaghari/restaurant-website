@@ -3,7 +3,6 @@
     <Hero />
     <Reviews />
     <Menu />
-    <hr />
     <About />
   </Layout>
 </template>

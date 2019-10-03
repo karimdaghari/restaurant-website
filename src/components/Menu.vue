@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="menu">
     <b-heading>Menu</b-heading>
     <b-container>
       <h3 class="text-uppercase mb-2">Entrées</h3>

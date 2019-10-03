@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="about">
     <b-container>
       <b-heading>A propos</b-heading>
       <b-row>

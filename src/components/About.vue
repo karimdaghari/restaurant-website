@@ -8,17 +8,17 @@
 
           <h6>Mot du chef</h6>
           <blockquote>
-            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit.</q>
-            <footer class="mt-2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <footer class="mt-2 text-center">
               <b-img
                 rounded="circle"
                 blank
                 blank-color="rgba(128, 255, 255, 0.5)"
-                width="48"
-                height="48"
+                width="56"
+                height="56"
                 class="mr-2"
               ></b-img>
-              <cite class="align-self-center">chef name</cite>
+              <cite class="d-block mt-1">chef name</cite>
             </footer>
           </blockquote>
         </b-col>
@@ -71,3 +71,24 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+blockquote {
+  & {
+    padding: 1em;
+    background-color: grey;
+    border-radius: 1em;
+    color: white;
+  }
+  p {
+    &::before {
+      content: "\201C";
+      font-size: 1.2em;
+    }
+    &::after {
+      content: "\201D";
+      font-size: 1.2em;
+    }
+  }
+}
+</style>

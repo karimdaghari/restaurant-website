@@ -1,9 +1,6 @@
 <template>
   <b-jumbotron tag="section" container-fluid fluid class="mb-0">
-    <template #header>
-      Une experience...
-      <br />Unique.
-    </template>
+    <template #header>Une experience unique.</template>
 
     <b-button pill variant="primary" size="lg">CTA</b-button>
   </b-jumbotron>

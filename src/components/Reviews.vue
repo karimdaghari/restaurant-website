@@ -1,7 +1,7 @@
 <template>
   <section>
     <b-container class="pb-5 pt-1">
-      <b-heading>Ce qu'ils disent</b-heading>
+      <b-heading>Ce que nos clients disent</b-heading>
       <b-row>
         <b-col>
           <reviews-single-item />
@@ -29,7 +29,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-section {
-  background-color: beige;
-}
 </style>

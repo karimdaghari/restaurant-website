@@ -29,24 +29,32 @@
           <div class="mt-2">
             <h2 class="mb-2">Nos coordonnées</h2>
             <address>
-              <ul class="list-unstyled">
-                <li class="mb-2">
-                  <unicon name="map-pin"></unicon>
-                  <p class="d-inline-flex mb-0 ml-2">69 Rue banane</p>
-                </li>
-                <li class="mb-2">
-                  <unicon name="phone"></unicon>
-                  <a class="ml-1" href="tel:+491570156">+49 157 0156</a>
-                </li>
-                <li class="mb-2">
-                  <unicon name="facebook"></unicon>
-                  <a class="ml-1" href="https://facebook.com/x">@x</a>
-                </li>
-                <li class="mb-2">
-                  <unicon name="instagram"></unicon>
-                  <a class="ml-1" href="https://instagram.com/x">@x</a>
-                </li>
-              </ul>
+              <b-row>
+                <b-col>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <unicon name="map-pin"></unicon>
+                      <p class="d-inline-flex mb-0 ml-2">69 Rue banane</p>
+                    </li>
+                    <li class="mb-2">
+                      <unicon name="phone"></unicon>
+                      <a class="ml-1" href="tel:+491570156">+49 157 0156</a>
+                    </li>
+                  </ul>
+                </b-col>
+                <b-col>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <unicon name="facebook"></unicon>
+                      <a class="ml-1" href="https://facebook.com/x">@x</a>
+                    </li>
+                    <li class="mb-2">
+                      <unicon name="instagram"></unicon>
+                      <a class="ml-1" href="https://instagram.com/x">@x</a>
+                    </li>
+                  </ul>
+                </b-col>
+              </b-row>
             </address>
           </div>
         </b-col>

@@ -6,7 +6,7 @@
         <b-col md="6">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae ratione, sunt dolor laudantium magni autem! Atque sit quos ex, hic magni fugit, voluptatem minima in perspiciatis explicabo harum assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni iure, ipsum provident ullam autem dolor pariatur impedit labore inventore consequatur quos numquam dicta maiores est nobis possimus nesciunt doloribus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque deserunt amet aliquid eligendi doloribus cumque iusto porro iure? Id officiis magni a aperiam fuga obcaecati ipsum dolores expedita debitis nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-          <h6>Mot du chef</h6>
+          <h5 class="text-uppercase">Mot du chef</h5>
           <blockquote>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <footer class="mt-2 text-center">

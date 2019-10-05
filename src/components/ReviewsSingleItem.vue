@@ -5,8 +5,12 @@
         <b-img rounded="circle" blank blank-color="#ccc" width="80" alt="placeholder"></b-img>
       </template>
       <h5>Excellent !</h5>
-      <div class="mb-n2">
-        <p>* * * * *</p>
+      <div class>
+        <unicon name="star" fill="#FFBF00"></unicon>
+        <unicon name="star" fill="#FFBF00"></unicon>
+        <unicon name="star" fill="#FFBF00"></unicon>
+        <unicon name="star" fill="#FFBF00"></unicon>
+        <unicon name="star" fill="#FFBF00"></unicon>
       </div>
       <blockquote>
         <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempora est, quia quas officiis totam optio.</q>

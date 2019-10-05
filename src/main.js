@@ -10,11 +10,19 @@ import {
   uniFacebook,
   uniInstagram,
   uniMapPin,
-  uniPhone
+  uniPhone,
+  uniStar
 } from 'vue-unicons/src/icons';
 
 export default function(Vue, { router, head, isClient }) {
-  const icons = [uniFacebookF, uniFacebook, uniInstagram, uniMapPin, uniPhone];
+  const icons = [
+    uniFacebookF,
+    uniFacebook,
+    uniInstagram,
+    uniMapPin,
+    uniPhone,
+    uniStar
+  ];
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);

@@ -24,4 +24,9 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+@media screen and (max-width: 480px) and (max-width: 800px) {
+  .card {
+    margin-top: 1em;
+  }
+}
 </style>

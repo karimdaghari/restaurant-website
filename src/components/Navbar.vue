@@ -36,6 +36,9 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+* {
+  text-transform: uppercase;
+}
 .logo {
   width: 6.5rem;
 }

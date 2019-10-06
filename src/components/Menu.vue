@@ -1,7 +1,7 @@
 <template>
   <section id="menu">
     <b-container>
-      <b-heading>Menu</b-heading>
+      <b-heading class="text-center mb-4">Menu</b-heading>
       <section>
         <b-heading>Entrées</b-heading>
         <b-row class="mb-2">

@@ -1,7 +1,7 @@
 <template>
   <section>
     <b-container class="pb-5 pt-1">
-      <b-heading>Ce que nos clients disent</b-heading>
+      <b-heading class="text-center mb-4">Ce que nos clients disent</b-heading>
       <b-row>
         <b-col>
           <reviews-single-item />

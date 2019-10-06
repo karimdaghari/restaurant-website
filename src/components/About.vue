@@ -7,12 +7,7 @@
           <p
             class="text-justify"
           >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae ratione, sunt dolor laudantium magni autem! Atque sit quos ex, hic magni fugit, voluptatem minima in perspiciatis explicabo harum assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni iure, ipsum provident ullam autem dolor pariatur impedit labore inventore consequatur quos numquam dicta maiores est nobis possimus nesciunt doloribus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque deserunt amet aliquid eligendi doloribus cumque iusto porro iure? Id officiis magni a aperiam fuga obcaecati ipsum dolores expedita debitis nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </b-col>
-        <b-col md="6">
-          <b-heading class="mt-n1">Visitez nous</b-heading>
-          <div>
-            <b-img blank blank-color="rgba(128, 255, 255, 0.5)" fluid-grow class="mr-2"></b-img>
-          </div>
+
           <div class="mt-2">
             <b-heading>Nos coordonnées</b-heading>
             <address>
@@ -44,6 +39,27 @@
               </b-row>
             </address>
           </div>
+        </b-col>
+        <b-col md="6">
+          <b-row>
+            <b-col>
+              <b-heading class="mt-n1">Visitez nous</b-heading>
+              <div>
+                <b-img blank blank-color="rgba(128, 255, 255, 0.5)" width="560" height="256" fluid></b-img>
+              </div>
+            </b-col>
+          </b-row>
+          <b-row class="mt-2 mb-2">
+            <b-col>
+              <b-img blank blank-color="rgba(128, 255, 255, 0.5)" width="256" height="256" fluid></b-img>
+            </b-col>
+            <b-col>
+              <b-img blank blank-color="rgba(128, 255, 255, 0.5)" width="256" height="256" fluid></b-img>
+            </b-col>
+            <b-col>
+              <b-img blank blank-color="rgba(128, 255, 255, 0.5)" width="256" height="256" fluid></b-img>
+            </b-col>
+          </b-row>
         </b-col>
       </b-row>
     </b-container>

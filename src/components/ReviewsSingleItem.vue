@@ -13,7 +13,9 @@
         <unicon name="star" fill="#FFBF00"></unicon>
       </div>
       <blockquote class="mt-2">
-        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempora est, quia quas officiis totam optio.</q>
+        <q
+          class="text-justify"
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempora est, quia quas officiis totam optio.</q>
         <footer class="mt-2">
           name,
           <cite>date</cite>

@@ -5,22 +5,6 @@
       <b-row>
         <b-col md="6">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae ratione, sunt dolor laudantium magni autem! Atque sit quos ex, hic magni fugit, voluptatem minima in perspiciatis explicabo harum assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magni iure, ipsum provident ullam autem dolor pariatur impedit labore inventore consequatur quos numquam dicta maiores est nobis possimus nesciunt doloribus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque deserunt amet aliquid eligendi doloribus cumque iusto porro iure? Id officiis magni a aperiam fuga obcaecati ipsum dolores expedita debitis nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-          <h5 class="text-uppercase">Mot du chef</h5>
-          <blockquote>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <footer class="mt-2 text-center">
-              <b-img
-                rounded="circle"
-                blank
-                blank-color="rgba(128, 255, 255, 0.5)"
-                width="56"
-                height="56"
-                class="mr-2"
-              ></b-img>
-              <cite class="d-block mt-1">chef name</cite>
-            </footer>
-          </blockquote>
         </b-col>
         <b-col md="6">
           <b-heading class="mt-n1">Visitez nous</b-heading>
@@ -74,22 +58,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-blockquote {
-  & {
-    padding: 1em;
-    background-color: grey;
-    border-radius: 1em;
-    color: white;
-  }
-  p {
-    &::before {
-      content: "\201C";
-      font-size: 1.2em;
-    }
-    &::after {
-      content: "\201D";
-      font-size: 1.2em;
-    }
-  }
-}
 </style>

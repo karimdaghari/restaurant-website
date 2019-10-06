@@ -1,5 +1,5 @@
 <template>
-  <b-card :img-src="mealImage">
+  <b-card :img-src="mealImage" border-variant="light">
     <b-card-title>
       <slot name="mealName">Nom Entrée</slot>
     </b-card-title>

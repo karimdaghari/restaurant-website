@@ -1,12 +1,6 @@
 <template>
   <b-navbar toggleable="md">
-    <b-navbar-brand href="/">
-      <img
-        src="http://www.pngall.com/wp-content/uploads/2016/04/Hexagon-PNG.png"
-        alt="Logo"
-        class="logo"
-      />
-    </b-navbar-brand>
+    <b-navbar-brand href="/">logo</b-navbar-brand>
 
     <b-navbar-toggle target="c-nav"></b-navbar-toggle>
 
@@ -38,9 +32,6 @@ export default {};
 <style lang="scss" scoped>
 * {
   text-transform: uppercase;
-}
-.logo {
-  width: 6.5rem;
 }
 </style>
 

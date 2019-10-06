@@ -23,11 +23,12 @@
           </blockquote>
         </b-col>
         <b-col md="6">
+          <b-heading class="mt-n1">Visitez nous</b-heading>
           <div>
             <b-img blank blank-color="rgba(128, 255, 255, 0.5)" fluid-grow class="mr-2"></b-img>
           </div>
           <div class="mt-2">
-            <h2 class="mb-2">Nos coordonnées</h2>
+            <b-heading>Nos coordonnées</b-heading>
             <address>
               <b-row>
                 <b-col>
